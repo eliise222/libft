@@ -6,7 +6,7 @@
 /*   By: elise <elise@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/25 13:12:58 by elise             #+#    #+#             */
-/*   Updated: 2025/08/28 16:55:49 by elise            ###   ########.fr       */
+/*   Updated: 2025/08/31 01:00:29 by elise            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 		while (i != (size - 1) && src[i])
 		{
 			dest[i] = src[i];
-				i++;
+			i++;
 		}
 		dest[i] = '\0';
 	}
